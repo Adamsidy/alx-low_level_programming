@@ -1,14 +1,12 @@
 #include <stdio.h>
-#include <stdlib.h>
-
 /**
- * main - C program prints line to the standard error
+ * main - C program that prints exactly and that piece of art is useful
  *
  * Return: Always 1 (Success)
  */
 int main(void)
 {
-	write(STDOUT_FILENO, "and that piece of art is useful
-			\" - Dora Korpar, 2015-10-19\n", 59);
+	write(2, "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 61);
+
 	return (1);
 }
