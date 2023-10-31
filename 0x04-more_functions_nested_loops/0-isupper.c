@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_isupper - checks for  uppercase characters
+ * *_isupper - checks for uppercase characters
  * @c: char
  * Return: 0 or 1
  */
@@ -9,7 +9,7 @@
 int _isupper(int c)
 {
 	int i;
-	for  (i = 'A'; i <= 'Z'; i++)
+	for (i = 'A'; i <= 'Z'; i++)
 	{
 		if (i == c)
 		{
